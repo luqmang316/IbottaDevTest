@@ -3,18 +3,31 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E03198AF4CB4593F49A7E43 /* Pods_IbottaDevTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4360E887768B3B9F14377BAF /* Pods_IbottaDevTest.framework */; };
+		557EADFDBCEC05EA0DD48EC4 /* Pods_IbottaDevTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82DADF22B3E3BA77A7AB1DB5 /* Pods_IbottaDevTestTests.framework */; };
 		873962F925461142006E61D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873962F825461142006E61D8 /* AppDelegate.swift */; };
 		873962FB25461142006E61D8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873962FA25461142006E61D8 /* SceneDelegate.swift */; };
-		873962FD25461142006E61D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873962FC25461142006E61D8 /* ViewController.swift */; };
-		8739630025461142006E61D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873962FE25461142006E61D8 /* Main.storyboard */; };
 		8739630225461143006E61D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8739630125461143006E61D8 /* Assets.xcassets */; };
 		8739630525461143006E61D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8739630325461143006E61D8 /* LaunchScreen.storyboard */; };
 		8739631025461143006E61D8 /* IbottaDevTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8739630F25461143006E61D8 /* IbottaDevTestTests.swift */; };
 		8739631B25461143006E61D8 /* IbottaDevTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8739631A25461143006E61D8 /* IbottaDevTestUITests.swift */; };
+		873963302546118A006E61D8 /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8739632F2546118A006E61D8 /* ProductViewController.swift */; };
+		87396338254611C2006E61D8 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87396337254611C2006E61D8 /* DetailViewController.swift */; };
+		8739635025461288006E61D8 /* OfferCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8739634F25461288006E61D8 /* OfferCell.swift */; };
+		87396357254612C6006E61D8 /* Offer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87396356254612C6006E61D8 /* Offer.swift */; };
+		87396360254612F3006E61D8 /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8739635F254612F3006E61D8 /* Style.swift */; };
+		873963782546140D006E61D8 /* Offers.json in Resources */ = {isa = PBXBuildFile; fileRef = 873963772546140D006E61D8 /* Offers.json */; };
+		873963792546140D006E61D8 /* Offers.json in Resources */ = {isa = PBXBuildFile; fileRef = 873963772546140D006E61D8 /* Offers.json */; };
+		8739637A2546140D006E61D8 /* Offers.json in Resources */ = {isa = PBXBuildFile; fileRef = 873963772546140D006E61D8 /* Offers.json */; };
+		8739638A254632C9006E61D8 /* UIColor+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87396389254632C9006E61D8 /* UIColor+Additions.swift */; };
+		87396393254642C2006E61D8 /* ServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87396392254642C2006E61D8 /* ServiceManager.swift */; };
+		873963A025469B46006E61D8 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8739639F25469B46006E61D8 /* AppConstants.swift */; };
+		873963A525469DA6006E61D8 /* NSAttributedString+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873963A425469DA6006E61D8 /* NSAttributedString+Additions.swift */; };
+		A7473AAB9B37D456C310171A /* Pods_IbottaDevTest_IbottaDevTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D68B94AAA9C93A7EDD943012 /* Pods_IbottaDevTest_IbottaDevTestUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +48,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		31F69FC9EB4F768E7E4AA9E8 /* Pods-IbottaDevTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IbottaDevTest.release.xcconfig"; path = "Target Support Files/Pods-IbottaDevTest/Pods-IbottaDevTest.release.xcconfig"; sourceTree = "<group>"; };
+		4360E887768B3B9F14377BAF /* Pods_IbottaDevTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IbottaDevTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82DADF22B3E3BA77A7AB1DB5 /* Pods_IbottaDevTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IbottaDevTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873962F525461142006E61D8 /* IbottaDevTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IbottaDevTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		873962F825461142006E61D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		873962FA25461142006E61D8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		873962FC25461142006E61D8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		873962FF25461142006E61D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8739630125461143006E61D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8739630425461143006E61D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8739630625461143006E61D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +63,22 @@
 		8739631625461143006E61D8 /* IbottaDevTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IbottaDevTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8739631A25461143006E61D8 /* IbottaDevTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IbottaDevTestUITests.swift; sourceTree = "<group>"; };
 		8739631C25461143006E61D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8739632F2546118A006E61D8 /* ProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
+		87396337254611C2006E61D8 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		8739634F25461288006E61D8 /* OfferCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferCell.swift; sourceTree = "<group>"; };
+		87396356254612C6006E61D8 /* Offer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Offer.swift; sourceTree = "<group>"; };
+		8739635F254612F3006E61D8 /* Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Style.swift; sourceTree = "<group>"; };
+		873963772546140D006E61D8 /* Offers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Offers.json; sourceTree = "<group>"; };
+		87396389254632C9006E61D8 /* UIColor+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Additions.swift"; sourceTree = "<group>"; };
+		87396392254642C2006E61D8 /* ServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceManager.swift; sourceTree = "<group>"; };
+		8739639F25469B46006E61D8 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		873963A425469DA6006E61D8 /* NSAttributedString+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSAttributedString+Additions.swift"; sourceTree = "<group>"; };
+		989D9BE2B69280DB81176423 /* Pods-IbottaDevTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IbottaDevTestTests.debug.xcconfig"; path = "Target Support Files/Pods-IbottaDevTestTests/Pods-IbottaDevTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BA4A8AA0BCBE1651AB707704 /* Pods-IbottaDevTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IbottaDevTestTests.release.xcconfig"; path = "Target Support Files/Pods-IbottaDevTestTests/Pods-IbottaDevTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		D4F0E7EA5264DE5E43CE0DBF /* Pods-IbottaDevTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IbottaDevTest.debug.xcconfig"; path = "Target Support Files/Pods-IbottaDevTest/Pods-IbottaDevTest.debug.xcconfig"; sourceTree = "<group>"; };
+		D68B94AAA9C93A7EDD943012 /* Pods_IbottaDevTest_IbottaDevTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IbottaDevTest_IbottaDevTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E54D36EEAC9D1F3B52D64761 /* Pods-IbottaDevTest-IbottaDevTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IbottaDevTest-IbottaDevTestUITests.debug.xcconfig"; path = "Target Support Files/Pods-IbottaDevTest-IbottaDevTestUITests/Pods-IbottaDevTest-IbottaDevTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E93511A6534F3AC95FC5680D /* Pods-IbottaDevTest-IbottaDevTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IbottaDevTest-IbottaDevTestUITests.release.xcconfig"; path = "Target Support Files/Pods-IbottaDevTest-IbottaDevTestUITests/Pods-IbottaDevTest-IbottaDevTestUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E03198AF4CB4593F49A7E43 /* Pods_IbottaDevTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				557EADFDBCEC05EA0DD48EC4 /* Pods_IbottaDevTestTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +102,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7473AAB9B37D456C310171A /* Pods_IbottaDevTest_IbottaDevTestUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		150A32D447983DB57906B979 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4360E887768B3B9F14377BAF /* Pods_IbottaDevTest.framework */,
+				D68B94AAA9C93A7EDD943012 /* Pods_IbottaDevTest_IbottaDevTestUITests.framework */,
+				82DADF22B3E3BA77A7AB1DB5 /* Pods_IbottaDevTestTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		873962EC25461142006E61D8 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +126,8 @@
 				8739630E25461143006E61D8 /* IbottaDevTestTests */,
 				8739631925461143006E61D8 /* IbottaDevTestUITests */,
 				873962F625461142006E61D8 /* Products */,
+				A547CD8E120B5F2EB2B633B2 /* Pods */,
+				150A32D447983DB57906B979 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +144,18 @@
 		873962F725461142006E61D8 /* IbottaDevTest */ = {
 			isa = PBXGroup;
 			children = (
+				8739639125464263006E61D8 /* Util */,
+				87396388254632A1006E61D8 /* Extension */,
+				8739635E254612E4006E61D8 /* Style */,
+				8739634325461259006E61D8 /* Cell */,
+				87396355254612B2006E61D8 /* Model */,
+				8739632E25461161006E61D8 /* ViewController */,
 				873962F825461142006E61D8 /* AppDelegate.swift */,
 				873962FA25461142006E61D8 /* SceneDelegate.swift */,
-				873962FC25461142006E61D8 /* ViewController.swift */,
-				873962FE25461142006E61D8 /* Main.storyboard */,
 				8739630125461143006E61D8 /* Assets.xcassets */,
 				8739630325461143006E61D8 /* LaunchScreen.storyboard */,
 				8739630625461143006E61D8 /* Info.plist */,
+				873963772546140D006E61D8 /* Offers.json */,
 			);
 			path = IbottaDevTest;
 			sourceTree = "<group>";
@@ -128,6 +178,70 @@
 			path = IbottaDevTestUITests;
 			sourceTree = "<group>";
 		};
+		8739632E25461161006E61D8 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8739632F2546118A006E61D8 /* ProductViewController.swift */,
+				87396337254611C2006E61D8 /* DetailViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		8739634325461259006E61D8 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				8739634F25461288006E61D8 /* OfferCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		87396355254612B2006E61D8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				87396356254612C6006E61D8 /* Offer.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8739635E254612E4006E61D8 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				8739635F254612F3006E61D8 /* Style.swift */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		87396388254632A1006E61D8 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				87396389254632C9006E61D8 /* UIColor+Additions.swift */,
+				873963A425469DA6006E61D8 /* NSAttributedString+Additions.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		8739639125464263006E61D8 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				87396392254642C2006E61D8 /* ServiceManager.swift */,
+				8739639F25469B46006E61D8 /* AppConstants.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		A547CD8E120B5F2EB2B633B2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D4F0E7EA5264DE5E43CE0DBF /* Pods-IbottaDevTest.debug.xcconfig */,
+				31F69FC9EB4F768E7E4AA9E8 /* Pods-IbottaDevTest.release.xcconfig */,
+				E54D36EEAC9D1F3B52D64761 /* Pods-IbottaDevTest-IbottaDevTestUITests.debug.xcconfig */,
+				E93511A6534F3AC95FC5680D /* Pods-IbottaDevTest-IbottaDevTestUITests.release.xcconfig */,
+				989D9BE2B69280DB81176423 /* Pods-IbottaDevTestTests.debug.xcconfig */,
+				BA4A8AA0BCBE1651AB707704 /* Pods-IbottaDevTestTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +249,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8739631F25461143006E61D8 /* Build configuration list for PBXNativeTarget "IbottaDevTest" */;
 			buildPhases = (
+				307B1A7AF2001798990C6D58 /* [CP] Check Pods Manifest.lock */,
 				873962F125461142006E61D8 /* Sources */,
 				873962F225461142006E61D8 /* Frameworks */,
 				873962F325461142006E61D8 /* Resources */,
+				1510922E0A6462FBBEDCED1D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +268,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8739632225461143006E61D8 /* Build configuration list for PBXNativeTarget "IbottaDevTestTests" */;
 			buildPhases = (
+				9C59E45BB89130ABA97C9905 /* [CP] Check Pods Manifest.lock */,
 				8739630725461143006E61D8 /* Sources */,
 				8739630825461143006E61D8 /* Frameworks */,
 				8739630925461143006E61D8 /* Resources */,
@@ -170,9 +287,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8739632525461143006E61D8 /* Build configuration list for PBXNativeTarget "IbottaDevTestUITests" */;
 			buildPhases = (
+				06D11E677E382094744E1A45 /* [CP] Check Pods Manifest.lock */,
 				8739631225461143006E61D8 /* Sources */,
 				8739631325461143006E61D8 /* Frameworks */,
 				8739631425461143006E61D8 /* Resources */,
+				02E30C1BF02BCC83AB359867 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,9 +350,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				873963782546140D006E61D8 /* Offers.json in Resources */,
 				8739630525461143006E61D8 /* LaunchScreen.storyboard in Resources */,
 				8739630225461143006E61D8 /* Assets.xcassets in Resources */,
-				8739630025461142006E61D8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +360,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				873963792546140D006E61D8 /* Offers.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,19 +368,131 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8739637A2546140D006E61D8 /* Offers.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02E30C1BF02BCC83AB359867 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IbottaDevTest-IbottaDevTestUITests/Pods-IbottaDevTest-IbottaDevTestUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IbottaDevTest-IbottaDevTestUITests/Pods-IbottaDevTest-IbottaDevTestUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IbottaDevTest-IbottaDevTestUITests/Pods-IbottaDevTest-IbottaDevTestUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		06D11E677E382094744E1A45 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IbottaDevTest-IbottaDevTestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1510922E0A6462FBBEDCED1D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IbottaDevTest/Pods-IbottaDevTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IbottaDevTest/Pods-IbottaDevTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IbottaDevTest/Pods-IbottaDevTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		307B1A7AF2001798990C6D58 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IbottaDevTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C59E45BB89130ABA97C9905 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IbottaDevTestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		873962F125461142006E61D8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				873962FD25461142006E61D8 /* ViewController.swift in Sources */,
+				87396357254612C6006E61D8 /* Offer.swift in Sources */,
+				8739638A254632C9006E61D8 /* UIColor+Additions.swift in Sources */,
 				873962F925461142006E61D8 /* AppDelegate.swift in Sources */,
+				873963A525469DA6006E61D8 /* NSAttributedString+Additions.swift in Sources */,
+				873963A025469B46006E61D8 /* AppConstants.swift in Sources */,
+				8739635025461288006E61D8 /* OfferCell.swift in Sources */,
+				87396338254611C2006E61D8 /* DetailViewController.swift in Sources */,
+				87396393254642C2006E61D8 /* ServiceManager.swift in Sources */,
+				873963302546118A006E61D8 /* ProductViewController.swift in Sources */,
 				873962FB25461142006E61D8 /* SceneDelegate.swift in Sources */,
+				87396360254612F3006E61D8 /* Style.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,14 +528,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		873962FE25461142006E61D8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				873962FF25461142006E61D8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		8739630325461143006E61D8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -433,6 +657,7 @@
 		};
 		8739632025461143006E61D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4F0E7EA5264DE5E43CE0DBF /* Pods-IbottaDevTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -451,6 +676,7 @@
 		};
 		8739632125461143006E61D8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31F69FC9EB4F768E7E4AA9E8 /* Pods-IbottaDevTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -469,6 +695,7 @@
 		};
 		8739632325461143006E61D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 989D9BE2B69280DB81176423 /* Pods-IbottaDevTestTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +717,7 @@
 		};
 		8739632425461143006E61D8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA4A8AA0BCBE1651AB707704 /* Pods-IbottaDevTestTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -511,6 +739,7 @@
 		};
 		8739632625461143006E61D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E54D36EEAC9D1F3B52D64761 /* Pods-IbottaDevTest-IbottaDevTestUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -530,6 +759,7 @@
 		};
 		8739632725461143006E61D8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E93511A6534F3AC95FC5680D /* Pods-IbottaDevTest-IbottaDevTestUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
