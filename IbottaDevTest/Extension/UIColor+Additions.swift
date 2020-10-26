@@ -9,6 +9,7 @@ import UIKit
 
 extension UIColor {
     
+    /// Hex string convert to color
     class func colorFrom(hexString hexStr : String, alpha: CGFloat ) -> UIColor {
         
         if let rgbValue = UInt(hexStr, radix: 16) {
@@ -18,7 +19,7 @@ extension UIColor {
             let blue  =  CGFloat((rgbValue      ) & 0xff) / 255
             return UIColor(red: red, green: green, blue: blue, alpha: alpha)
             
-        } else {
+        } else { // bydefult return black color
             return UIColor.black
         }
     }

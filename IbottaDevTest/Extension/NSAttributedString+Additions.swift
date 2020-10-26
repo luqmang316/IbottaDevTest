@@ -9,6 +9,7 @@ import UIKit
 
 extension NSAttributedString {
     
+    /// Under line the text.
     class func underLine(mainString: String, subString: String, fontName: String, fontSize: CGFloat) ->  NSMutableAttributedString{
         
         let rangeSignUp = NSString(string: mainString).range(of: subString, options: String.CompareOptions.caseInsensitive)
@@ -19,7 +20,7 @@ extension NSAttributedString {
         attrStr.addAttributes([NSAttributedString.Key.foregroundColor : UIColor.black,
                                NSAttributedString.Key.font : UIFont.init(name: fontName, size: fontSize)!,
                                NSAttributedString.Key.underlineStyle: NSUnderlineStyle.thick.rawValue as Any],range: rangeSignUp)
-        
         return attrStr
     }
+    
 }

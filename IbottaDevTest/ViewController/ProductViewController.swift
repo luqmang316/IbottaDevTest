@@ -42,6 +42,7 @@ public class ProductViewController: UIViewController {
     }
     
     //MARK: - User Defined
+    /// UI configuration
     private func configureUI(){
         
         collectionVIew.setCollectionViewLayout(layout, animated: true)
@@ -64,6 +65,8 @@ public class ProductViewController: UIViewController {
         ])
     }
 }
+
+//MARK: - Collection view Data Source
 
 extension ProductViewController: UICollectionViewDataSource {
     
@@ -95,6 +98,8 @@ extension ProductViewController: UICollectionViewDataSource {
     }
     
 }
+
+//MARK: - Collection view Delegate
 
 extension ProductViewController:UICollectionViewDelegateFlowLayout{
     

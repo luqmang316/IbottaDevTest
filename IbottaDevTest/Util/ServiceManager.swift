@@ -9,6 +9,7 @@ import Foundation
 
 class ServiceManager {
     
+    /// Read data for json file
     func readLocalFile(forName name: String) -> Data? {
         
         do {
@@ -23,6 +24,7 @@ class ServiceManager {
         return nil
     }
     
+    /// Parse data to model
     func parse(jsonData: Data) ->[Offer]? {
         
         do {

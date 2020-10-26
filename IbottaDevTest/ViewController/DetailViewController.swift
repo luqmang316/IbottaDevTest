@@ -9,6 +9,9 @@ import UIKit
 
 class DetailViewController: UIViewController {
     
+    var offer:Offer!
+
+    //MARK:-OutLets
     var imageView = UIImageView()
     var btnFavorite = UIButton()
     var currentValueLabel = Title()
@@ -16,8 +19,7 @@ class DetailViewController: UIViewController {
     var termsLabel =  Detail()
     var descriptionlLabel =  Detail()
     
-    var offer:Offer!
-    
+    //MARK: - Life Sycle
     override func viewDidLoad() {
         
         super.viewDidLoad()
@@ -26,13 +28,16 @@ class DetailViewController: UIViewController {
         self.view.backgroundColor = .white
         configureUI()
         setupContraints()
-
+        
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         self.navigationController?.navigationBar.topItem?.title = ""
     }
+    
+    //MARK: - User Defined
+    /// UI configuration
     
     private func configureUI(){
         
@@ -57,6 +62,7 @@ class DetailViewController: UIViewController {
         
     }
     
+    // call when tap on favorite / unfavorite buttion.
     @objc func didTapFavorite(){
         
         offer.isFavorite = offer.isFavorite ? false : true
@@ -64,6 +70,7 @@ class DetailViewController: UIViewController {
         
     }
     
+    /// Set All constraints
     private func setupContraints(){
         
         imageView.translatesAutoresizingMaskIntoConstraints = false
@@ -98,13 +105,14 @@ class DetailViewController: UIViewController {
         ])
     }
     
+    /// Set date on view
     private func setData(){
         
         if let url = offer.url{
             let url = URL(string: url)
             imageView.sd_setImage(with:url, placeholderImage: UIImage(named: "placeholder"))
         }
-
+        
         currentValueLabel.attributedText = NSAttributedString.underLine(mainString: "Current Value: " + offer.currentValue, subString: "Current Value:", fontName: AvenirNext_DemiBold, fontSize: LabelTitle_Size)
         nameLabel.attributedText = NSAttributedString.underLine(mainString: "Name: " + (offer.name ?? ""), subString: "Name:", fontName: AvenirNext_DemiBold, fontSize: LabelTitle_Size)
         descriptionlLabel.attributedText = NSAttributedString.underLine(mainString: "Description: " + offer.description, subString: "Description:", fontName: AvenirNext_Regular, fontSize: LabelDetail_Size)

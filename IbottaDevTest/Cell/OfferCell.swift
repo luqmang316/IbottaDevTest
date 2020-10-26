@@ -9,15 +9,18 @@ import UIKit
 
 class OfferCell: UICollectionViewCell {
     
+    //MARK:-OutLets
     var productImage = UIImageView()
     var imageContainer = UIView()
     var favImage = UIImageView()
     var currentValue = Title()
     var name = Detail()
     
+    /// Init with frame
     override init(frame: CGRect) {
         
         super.init(frame: frame)
+        
         configureUI()
         setupConstraints()
     }
@@ -28,6 +31,9 @@ class OfferCell: UICollectionViewCell {
         configureUI()
         setupConstraints()
     }
+    
+    //MARK: - User Defined
+    /// UI configuration
     
     private func configureUI(){
         
@@ -47,6 +53,7 @@ class OfferCell: UICollectionViewCell {
         
     }
     
+    /// Set All constraints
     private func setupConstraints(){
         
         imageContainer.translatesAutoresizingMaskIntoConstraints = false
